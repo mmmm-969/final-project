@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        customBeige: '#A87B62',
+                    },
+                    width: {
+                        '25': "25px",
+                        '52': "52px",
+                        '64.06p': '64.06%', //205/320
+                        '75p': '75%', //240/320
+                        '90.63p': " 90.63%",//290.02/320
+
+                    },
+                    height: {
+                        '22': "22px",
+                        '25': "25px",
+                        '52': "52px",
+                        '92': "92px",
+                        '463': "463px",
+                        '684': "684px",
+                        '726': "726px",
+
+                        '56.52p': '56.52%' //180.86/320
+                    },
+                    spacing: {
+                        '30': '30px',
+                        '40': '40px',
+                        '45': '45px',
+                        '50': '50px',
+                        '4.69p': '4.69%', //15/320
+                        '30.47p': '30.47%', //97.5/320
+                        '50p': '50%', //160/320
+                        
+                       
+                    },
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .menu-text {
+            font-family: "Poppins", sans-serif;
+            font-size: 24px;
+            line-height: 36px;
+        }
+
+        .menu-text-nav {
+            font-family: "Poppins", sans-serif;
+            font-size: 18px;
+            line-height: 23.4px;
+        }
+
+        .text-PERFECTION {
+            font-family: "Cormorant Garamond", serif;
+            font-style: normal;
+            font-size: 38px;
+            line-height: 49.4px;
+            
+        }
+
+        .text-made_to_be_yours {
+            font-family: "Cormorant Garamond", serif;
+            font-style: italic;
+            font-size: 34px;
+            line-height: 44.2px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="nav h-92 w-full flex space-x-30.47p justify-center items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 25 18" fill="none">
+            <path d="M0 1H25M0 9H25M0 17H25" stroke="#1D1613" stroke-width="2" />
+        </svg>
+
+        <img class="min-w-25 h-56.52p " src="../logo.png" alt="#">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
+            <path
+                d="M14 5C14 6.06087 13.5786 7.07828 12.8284 7.82843C12.0783 8.57857 11.0609 9 10 9C8.93913 9 7.92172 8.57857 7.17157 7.82843C6.42143 7.07828 6 6.06087 6 5M1 1H19V17H1V1Z"
+                stroke="#1D1613" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    </div>
+    <!-- /.nav -->
+    <div class="menu bg-customBeige w-full pt-2.5 h-726">
+
+        <div class="search ml-4.69p mb-45 relative  ">
+
+
+            <img class="w-90.63p  z-0" src="/menu-search.png" alt="#">
+
+            <div><svg class="absolute top-1/2 left-4 transform -translate-y-1/2" xmlns="http://www.w3.org/2000/svg"
+                    width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path
+                        d="M12.6266 11.5128L16 14.8855L14.8855 16L11.5128 12.6266C10.2579 13.6325 8.69706 14.1797 7.08871 14.1774C3.17574 14.1774 0 11.0017 0 7.08871C0 3.17574 3.17574 0 7.08871 0C11.0017 0 14.1774 3.17574 14.1774 7.08871C14.1797 8.69706 13.6325 10.2579 12.6266 11.5128ZM11.0466 10.9284C12.0462 9.90047 12.6044 8.52254 12.6021 7.08871C12.6021 4.04214 10.1345 1.57527 7.08871 1.57527C4.04214 1.57527 1.57527 4.04214 1.57527 7.08871C1.57527 10.1345 4.04214 12.6021 7.08871 12.6021C8.52254 12.6044 9.90047 12.0462 10.9284 11.0466L11.0466 10.9284Z"
+                        fill="white" />
+                </svg></div>
+        </div>
+        <div class="menu-text_nav ml-4.69p">
+            <div class="menu-text text-white">
+                <h3 class="mb-10">What’s new</h3>
+                <h3 class="mb-10">Chokers</h3>
+                <h3 class="mb-10">Necklaces</h3>
+                <h3 class="mb-10">Rings</h3>
+                <h3 class="mb-45">Earrings</h3>
+            </div>
+            <div class="menu-text-nav text-white">
+                <p class="opacity-75 mb-30">About CH</p>
+                <p class="opacity-75 mb-30">Stores & Hours</p>
+                <p class="opacity-75 mb-45">Contact Us</p>
+                <p>Login</p>
+
+            </div>
+        </div>
+
+
+        <!-- /.search -->
+    </div>
+    <!-- /.menu -->
+
+    <div class="PERFECTION relative h-463">
+
+        <img class="w-full" src="PERFECTION-made to be yours.png" alt="#">
+
+        <div class="absolute inset-0 flex flex-col 
+         justify-center items-center">
+
+            <h1 class="text-PERFECTION text-center text-white w-75p h-25 block mb-[3.45%]">PERFECTION  </h1>
+
+             <h3 class="text-white text-made_to_be_yours w-64.06p h-22"> made to be yours</h3>  
+           
+        </div>
+    </div>
+    <!-- /.PERFECTION -->
+
+</body>
+
+</html>
